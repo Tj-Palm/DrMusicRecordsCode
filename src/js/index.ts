@@ -12,7 +12,7 @@ interface IMusicRecords {
     yearOfPublication: number;
 }
 
-let baseuri: string = "https://drmusicrecords.azurewebsites.net/api/Musicrecord";
+let baseuri: string = "https://drmusicrecords.azurewebsites.net/api/DB/Musicrecords";
 
 let showAll: HTMLButtonElement = <HTMLButtonElement> document.getElementById("ShowElements")
 showAll.addEventListener("click", ShowAllRecords)

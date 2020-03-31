@@ -30,5 +30,5 @@ Axios.get(baseuri)
 })
 };
 
-let element: HTMLDivElement = <HTMLDivElement> document.getElementById("content");
-let contentelement: HTMLDivElement = <HTMLDivElement> document.getElementById("contentelement")
+let element: HTMLDivElement = <HTMLDivElement> document.getElementById("ShowAllRecords");
+let contentelement: HTMLDivElement = <HTMLDivElement> document.getElementById("CatchRecords")

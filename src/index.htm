@@ -9,9 +9,20 @@
 <body>
   <h1>Webpack - TypeScript - Scss</h1>
   <h2>TypeScript Dr Music Records</h2>  
-  <button id="ShowElements">Click</button>
-  <div id="content"></div>
-  <div id="contentelement"></div>
+  <button id="ShowElements">Click to see all record values</button>
+  <div id="ShowAllRecords"></div>
+  <div id="CatchRecords"></div>
+
+  <input type="text" id="SearchInput">
+  <Select name="Search" id="SearchValues">
+    <option value="IdSearch" id="SearchForId">Id</option>
+    <option value="TitleSearch" id="SearchForTitle">Title</option>
+    <option value="ArtistSearch" id="SearchForArtist">Artist</option>
+    <option value="DurationSearch" id="SearchForDuration">Duration</option>
+    <option value="YearOfPublicationSearch" id="SearchForYearOfPublication">YearOfPublication</option>
+  </Select>
+  <button id="SearchRecords">Click to search</button>
+
     
   <script src="bundle.js"></script>
 </body>
